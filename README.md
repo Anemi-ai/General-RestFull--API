@@ -5,11 +5,11 @@
 
 # Clone repository
 ```javascript
-git clone https://github.com/DevCupu/Cloud-Computing-API-repo.git](https://github.com/Anemi-ai/General-RestFullAPI.git
+git clone https://github.com/Anemi-ai/General-RestFull-API.git
 ```
 # change directory to app-backend
 ```javascript
-cd Cloud-Computing-API-repo
+cd General-RestFull-API
 ```
 #Install (use Node.js version 18.18.2 if there are any problems with other versions)
 ```javascript
