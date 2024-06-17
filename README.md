@@ -250,7 +250,7 @@ npm run start
     }
     ```
 
-     - **Error (401 Unauthorized):**
+  - **Error (401 Unauthorized):**
     ```json
     {
       "message": "Unauthorized, Masukkan token"
