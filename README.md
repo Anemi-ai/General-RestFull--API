@@ -166,6 +166,12 @@ npm run start
         "message": "Data pengguna tidak ditemukan atau kosong!"
       }
       ```
+  - **Error (401 Unauthorized):**
+    ```json
+    {
+      "message": "Unauthorized, Masukkan token"
+    }
+    ```
   - **Error:** 500 Internal Server Error
     - Body:
       ```json
@@ -204,6 +210,12 @@ npm run start
     ```json
     {
       "message": "Kesalahan server internal"
+    }
+    ```
+  - **Error (401 Unauthorized):**
+    ```json
+    {
+      "message": "Unauthorized, Masukkan token"
     }
     ```
 
@@ -247,13 +259,6 @@ npm run start
     ```json
     {
       "message": "Nama, email, dan password harus diisi"
-    }
-    ```
-
-  - **Error (401 Unauthorized):**
-    ```json
-    {
-      "message": "Unauthorized, Masukkan token"
     }
     ```
 
