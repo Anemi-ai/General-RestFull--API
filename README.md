@@ -111,7 +111,6 @@ npm run start
 - **Request Body:**
   ```json
   {
-        "id": "article_id",
         "title": "Judul Artikel",
         "description": "Deskripsi Artikel",
         "content": "Konten Artikel",
@@ -248,6 +247,13 @@ npm run start
     ```json
     {
       "message": "Nama, email, dan password harus diisi"
+    }
+    ```
+
+     - **Error (401 Unauthorized):**
+    ```json
+    {
+      "message": "Unauthorized, Masukkan token"
     }
     ```
 
